@@ -43,7 +43,10 @@ setup_kwargs = {
     },
     'scripts': [
         'scripts/pepper',
-    ]
+    ],
+    'entry_points': {
+        'console_scripts': ['pepper=pepper.pepper:main']
+    }
 }
 
 
